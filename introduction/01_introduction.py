@@ -1,14 +1,16 @@
-#first program in python
-#you have to program in a format that they understand
 
-#comment
+#\ (backslash)
+# \ is a special character
+# however / (frontslash) is NOT a special character
 
-#keyword
-#print (output)
-#you need opening and closing quotation
-#message needs to be inside the opening and closing quotation
-print("Hello!!") #statement
-print("This is my next sentence")
+#1. \" to print " (good for one use)
+#2. \\ to print \
+#3. \n nextline
+#4. \t
+print("I \nwant to print \"\"\" and \\/\\") 
 
-#another print statement will go to the next line
+
+
+
+
 
