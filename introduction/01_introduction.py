@@ -1,14 +1,14 @@
+"""
+print("Success")
+print("is" + "sweet!") #you can use + (connect two things without space)
+print("Keep", "trying", end="...") #you can also use , (it will have one space in between)
+print("Don't give up!")
+"""
+#end="..." means you you connect the next sentence with ...
+print("Today", end="") #empty string
+print("is Friday")
 
-#\ (backslash)
-# \ is a special character
-# however / (frontslash) is NOT a special character
-
-#1. \" to print " (good for one use)
-#2. \\ to print \
-#3. \n nextline
-#4. \t
-print("I \nwant to print \"\"\" and \\/\\") 
-
+#end=   can connect the sentences into one
 
 
 
