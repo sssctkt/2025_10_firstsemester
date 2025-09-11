@@ -1,16 +1,6 @@
-#What is an assignment symbol? Give one example of correct assignment,
-#and one example of incorrect assignment
+x=10.5
+y=4
 
+x=x+y
+print(x,y)
 
-"""
-= is an assignment symbol. It assign values from right to left
-correct example:
-x=24
-incorrect example
-
-
-
-
-
-
-"""
