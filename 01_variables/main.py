@@ -1,21 +1,20 @@
-#task, is to swap variables
-#you cannot change what I write in here
-#but you can add more
+#Can a variable in python change its storing type?
 
-x=(input("Enter your first message: "))
-y=(input("Enter your second message: "))
+#short answer: yes
 
-
-#do your work here
-#you can create one more variable, but only one extra
-z=x
-x=y
-y=z
+number=123
+number=number+4
+print(number)
 
 
+number="this is a sentence!"
+number=number+3
 
-#output
-print(x) #the second number
-print(y) #the first number
+print(number)
 
+#long answer: while you can change change of a variable
+#please (at least in class) do not do it
+#because you are making it way more confusing in doing so
 
+#what if you need another type?? Simply create another variable
+#while the value of the variable can be changed. Try not to change the type
