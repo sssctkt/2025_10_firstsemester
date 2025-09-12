@@ -1,12 +1,40 @@
-#math operator
-# + --> addition
-# - --> subtraction
-# * --> mulitiplication
-# / --> division
-#bedmas applies
-# % modulus a%b will give you the remainder
-# (in this class, % will be used with positive integer only)
-# // speicial kind of division, it will round DOWN and give you an integer
-# ** exponent
+#compound operator
 
-print(2*3**2)
+x=5
+
+x=x+6
+
+print(x)
+
+y=5
+y+=6 #same as y=y+(6)
+print(y)
+
+a=21
+a-=10 #same as a=a-(10)
+print(a)
+
+
+b=34
+b*=2  #same as b=b*(2)
+print(b)
+
+
+c=25
+c/=2  #same as c=c/(2)
+print(c)
+
+#challenging question
+#beware of bedmas
+d=6
+d*=d+11 #same as d=d*(d+11)
+print(d)
+
+
+
+
+
+
+
+
+
