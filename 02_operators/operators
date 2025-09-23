@@ -1,0 +1,28 @@
+#operators
+
+#review Math operators
+#+ addition
+#- subtraction
+#* multiplication
+#/ division
+#** exponent
+#% modulus (remainders)
+#// (discard the decimals and round down)
+
+#compound operators
+#+=  a+=b same as a=a+b
+#-=  a-=b same as a=a-b
+#*=  a*=b same as a=a*(b)
+#/=  a/=b same as a=a/b
+
+#comparision operators
+#> greater than
+#< less than
+#>= greater than or equal to (do not put =>)
+#<= less than or equal to (do not put =<)
+#== equal
+#!= not equal
+
+
+
+
