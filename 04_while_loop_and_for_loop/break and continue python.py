@@ -3,13 +3,15 @@
 
 #break -->get out of the loop(only the loop the keyword is in)
 #continue-->go back to the control mechanism
-
-for a in range(1, 31, 1):
+a=1
+while a<31:
     if (a==13):
+        
         continue
     print(a)
-    
+    a=a+1
 
 #FOR LOOP MAKE SURE THAT INCREMENT/DECREMENT IS THE LAST THING TO HAPPEN
     
+
 
