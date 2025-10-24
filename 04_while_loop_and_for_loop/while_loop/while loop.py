@@ -1,16 +1,35 @@
-"""
-1.difference between while loop and for loop
-2.keyword break 
-3. we can design a little game
-"""
+import random
+import time
+#1.write print statement introduction
+#2.
+input("Press enter to begin")
 
-#break--immediately exit the loop it is in (one level) 
-#for loop--use it when you know how many times it will loop 
-#while loop --use it if you are lookng for a specific case to get out
-print("let's play an interesting game!!!")
+
+#3 instruction
+variable=random.uniform(6,17)
+time.sleep(variable)
+
+
+#4.
+start=time.time() #it will record the starting time
+
+
+
 while(True):
-    answer=input("Do you want to do homework?? yes or no: ")
-    if (answer=="yes"):
-        break 
+    input("Press Enter now!!!")
+    break
+    
 
-print("Then do your homework")
+end=time.time() #to record the end time
+
+print(end-start)
+
+
+
+
+
+
+
+
+
+    
