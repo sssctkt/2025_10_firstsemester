@@ -1,0 +1,49 @@
+"""
+so far you know
+basic while loop (you are expecting something to happen to break the loop)
+basic for loop (how many iteration to run)
+while (true) //go forever
+break--get out of the loop (most inner loop)
+continue--skip the rest , go back to the loop control mechanism
+
+for loop make sure that the last thing to happen is the increment/decrement
+"""
+#left to do, nested loop, nested for loop
+
+#nested loop (loop within a loop)
+
+import random
+while(True):
+    choice=input("Enter yes to enter the game, else to exit the game: ")
+    if (choice=="yes"):
+        pass #do nothing
+    else:
+        break
+    answer=random.randint(1, 100) #guess between 1-100
+    count=0 #count how many times we need to guess the number correctly
+
+    while(True):
+        number=int(input("Guess a number: "))
+        count=count+1
+        if (number>answer):
+            print("Too Big!!")
+        elif(number<answer):
+            print("Too small!!")
+        else:
+            print("That's the right answer!!")
+            break
+
+    if(count<=5):
+        print("it took you",count,"attempt(s), good job")
+    else:
+        print("it took you",count,"attempt(s), we will have a while loop and ")
+        print("for loop test on Oct 29th, 2025")
+
+
+
+
+
+
+
+
+
