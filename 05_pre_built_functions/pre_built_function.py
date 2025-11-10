@@ -23,12 +23,9 @@ else:
 you can use pre-built functions made by others
 as long as you know them
 """
-#1. max()
-answer=max(a,b,c,d)
+#1. max() 2. min()
+#task, find the maximum of a and b, then find the minimum of c and d
+#then find the maximum of these 2 results
+#all in one line
+answer=max(max(a,b), min(c,d))
 print(answer)
-#please remember max(a,b,c,d) a,b,c,d-->argument/parameter
-#the whole max(a,b,c,d) will become an answer then assign to the variable
-
-
-
-    
