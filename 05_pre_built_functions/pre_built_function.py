@@ -1,31 +1,49 @@
-#pre-built function
-#simple string and list methods
-#user defined function
-
-#pre-built function
-#what is a function in python? a block that does a specific task for you
-#it helps to reuse the code
-
-#example
-a=int(input("Enter a number: "))
-b=int(input("Enter another number: "))
-c=int(input("Enter the third number: "))
-d=int(input("Enter the fourth number: "))
-"""
-instead of doing it by yourself
-if (a>b and a>c):
-    print(a)
-elif (b>a and b>c):
-    print(b)
-else:
-    print(c)
-
-you can use pre-built functions made by others
-as long as you know them
-"""
-#1. max() 2. min()
-#task, find the maximum of a and b, then find the minimum of c and d
-#then find the maximum of these 2 results
-#all in one line
-answer=max(max(a,b), min(c,d))
+#rest of the pre-built functions
+#max()--finds the maximum
+answer=max(1, 2, 3, 4, 5,2) #argument/paramater
 print(answer)
+
+#min()--finds the minimum
+answer=min(2, 4)
+print(answer)
+
+#abs()--absolute value--it will change the negative value into positive
+answer1=abs(-6)
+answer2=abs(8)
+print(answer1, answer2)
+
+#int()--change it into integer
+answer=int(7.999)
+print(answer)
+
+#float() --change it into a float number (decimal)
+answer=float(10)
+print(answer)
+
+#str()--change it into string
+print(9*3)
+answer=str(9)
+print(answer*3)
+
+#len()--to find the length of a sentence (doesn't work on numbers)
+sentence="Daniel, it's okay!! Let's take it easy!"
+answer=len("Daniel, it's okay!! Let's take it easy!")
+print(answer)
+print(sentence[7])
+
+#round()--round it into an integer, if you have only one parameter
+answer=round(6.8)
+print(answer)
+#if you put a comma in between, it will round to the second's number decimal
+#place
+answer=round(1.23456, 4)
+print(answer)
+
+
+
+
+
+
+
+
+
