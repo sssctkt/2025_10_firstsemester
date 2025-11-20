@@ -1,18 +1,13 @@
-#what is a list?
+#question ask ppl to enter year month and date
+year=int(input("Enter year: "))
+month=int(input("Enter month: "))
+date=int(input("Enter date: "))
 
-#list is a keyword-->it can collect data from different
-#purpose is to make coding easier and more organiszed
+#example
+#2000
+#1
+#30
+#output will be 2000, January, 30
 
-a_list=["Kwan", "compsci", 40]
-
-print(a_list)
-
-#similiarity between string and list
-
-sentence="Neil can't go wrong"
-print(sentence[5])
-
-print(a_list[1])#like string, the index starts at 0
-print(len(sentence))
-print(len(a_list))#like string,the len starts at 1
-#len() function works for both string and list
+month_list=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+print(year, month_list[month-1], date)
